@@ -12,6 +12,7 @@ local default_configs = {
 local config
 
 function M.setup(opts)
+    opts = opts or {}
     M.set(opts)
 end
 
